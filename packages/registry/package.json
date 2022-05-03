@@ -1,10 +1,8 @@
 {
-  "name": "@cosmology/cosmos-registry",
+  "name": "@meteor/cosmos-registry",
   "version": "0.0.13",
   "description": "crypto networks",
-  "author": "Dan Lynch <pyramation@gmail.com>",
-  "homepage": "https://github.com/cosmology-finance/cosmology/tree/master/packages/cosmos-networks#readme",
-  "license": "SEE LICENSE IN LICENSE",
+  "author": "Nikita",
   "main": "main/index.js",
   "module": "module/index.js",
   "directories": {
@@ -18,10 +16,6 @@
   "publishConfig": {
     "access": "public"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/cosmology-finance/cosmology"
-  },
   "scripts": {
     "build:main": "BABEL_ENV=production babel src --out-dir main --delete-dir-on-start",
     "build:module": "MODULE=true babel src --out-dir module --delete-dir-on-start",
@@ -33,9 +27,6 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "test:debug": "node --inspect node_modules/.bin/jest --runInBand"
-  },
-  "bugs": {
-    "url": "https://github.com/pyramation/crypto/issues"
   },
   "devDependencies": {
     "@babel/cli": "7.17.6",
